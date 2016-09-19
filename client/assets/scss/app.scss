@@ -1,0 +1,14 @@
+@import "settings";
+@import "foundation";
+
+#query-section {
+	text-align: center;
+	padding: 20px;
+}
+
+#results-section {
+	text-align: center;
+	padding: 20px;
+	background-color: #eaf3d1;
+	border: dotted #ccc 2px;
+}

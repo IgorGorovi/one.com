@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case Study </title>
+    <link href="./assets/css/app.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="app-container" class="grid-frame vertical" ng-controller="AppController">
+        <div class="grid-block">
+            <div class="grid-container" id="query-section">
+                <div>
+                    <img src="assets/images/one.com.png" />
+                    <h4> Case Study </h4>
+                </div>
+                <div>
+                    <label>
+                        <span class="inline-label">
+                  <input ng-model="query" placeholder="Search a number" type="search">
+                  <button class="button" ng-click="search()">Search</button>
+                </span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="grid-block">
+            <div class="grid-container" ui-view>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/templates.js"></script>
+    <script src="./assets/js/routes.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/lib/one.com.js"></script>
+</body>
+</html>
