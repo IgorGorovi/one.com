@@ -41,7 +41,7 @@ npm start
 
 This will compile the Sass and assemble your Angular app. **Now go to `localhost:8079` in your browser to see it in action.** When you change any file in the `client` folder, the appropriate Gulp task will run to build new files.
 
-To run the compiling process once, without watching any files, use the `npm run one` command.
+To run the compiling process once, without watching any files, use the command:
 
 ```bash
 npm run one
